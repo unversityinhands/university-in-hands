@@ -1,0 +1,112 @@
+/* Start Variables */
+/* End Variables */
+/* Start Golbal Rules  */
+* {
+  --moz-box-sizing: border-box;
+  --webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+ul {
+  list-style: none;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 97px;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+      width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+      width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+      width: 1170px;
+  }
+}
+
+/* End Golbal Rules  */
+/* Start Unversity */
+body {
+  /*rgb(233, 231, 231)*/
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  /* height: 100vh; */
+
+  margin:0;
+}
+.unversity {
+  background-image: url("../images/1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+}
+.unversity .container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+div form {
+  width: 320px;
+  text-align: left;
+  padding-left: 12px;
+}
+div form input.specail{
+  width: 300px;
+  height: 40px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 8px 0 #c4bebe;
+}
+.container form input[type="submit"] {
+  border-radius: 10px;
+  width: 300px;
+  border: none;
+  background-color: #188eae66;
+  color: white;
+  margin-top: 25px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.unversity .container textarea {
+  height: 200px!important;
+  width: 300%!important;
+  max-width: 100%;
+}
+.unversity .container .fill-field {
+  color: red;
+}
+
+/* .unversity .container form select{
+  width: 300px;
+  height: 40px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 8px 0 #c4bebe;
+} */

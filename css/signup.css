@@ -1,0 +1,161 @@
+
+:root {
+  --main-color: #673ab7;
+}
+body {
+  background-image: url("../images/1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*rgb(233, 231, 231)*/
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  height: 100vh;
+  padding-top: 80px;
+  margin:0;
+}
+div.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.container .left-side h5 {
+  font-size: 25px;
+  width: 300px;
+  padding-left: 70px;
+}
+.container .left-side img {
+  max-width: 100%;
+  margin-top: 50px;
+}
+div form {
+  width: 320px;
+  text-align: left;
+  padding-left: 12px;
+}
+div form input.specail{
+  width: 300px;
+  height: 40px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 8px 0 #c4bebe;
+}
+div form input::placeholder {
+  padding-left: 7px;
+}
+.container form input[type="submit"] {
+  border-radius: 10px;
+  width: 300px;
+  border: none;
+  background-color: var(--main-color);
+  color: white;
+  margin-top: 25px;
+  height: 40px;
+  cursor: pointer;
+}
+.container form label {
+  color: #262626;
+}
+.container form span{
+  color: var(--main-color);
+  cursor: pointer;
+}
+.container .user-info {
+  width: 320px;
+  display: flex;
+  justify-content: center;
+}
+.container .user-info div{
+  text-align: center;
+  color: var(--main-color);
+  /* height: 40px; */
+  padding: 15px 45px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.active-user {
+  color: white !important;
+  background-color: var(--main-color);
+}
+.container .background {
+
+}
+.check {
+  color: red;
+  font-size: 16px;
+}
+/* 
+:root {
+  --main-color: var(blue);
+}
+    body {
+  background-color: #eee; */
+  /*rgb(233, 231, 231)*/
+/* 
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+div.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.container .left-side h5 {
+  font-size: 25px;
+  width: 300px;
+  padding-left: 70px;
+}
+
+.container .left-side img {
+  max-width: 100%;
+  margin-top: 50px;
+}
+
+div form {
+  width: 320px;
+  text-align: left;
+}
+
+div form input.specail{
+  width: 300px;
+  height: 40px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 8px 0 #c4bebe;
+}
+
+div form input::placeholder {
+  padding-left: 7px;
+}
+
+.container form input[type="submit"] {
+  border-radius: 10px;
+  width: 80px;
+  border: none;
+}
+
+.container .user-info {
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .user-info div{
+  text-align: center;
+  color: var(--main-color);
+  /* height: 40px; */
+/*  padding: 15px 40px;
+  border-radius: 10px;
+}
+.active-user {
+  color: white !important;
+  background-color: var(--main-color);
+} */
